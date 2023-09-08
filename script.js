@@ -8,10 +8,9 @@ let displayString = "";
 
 
 function getInput(input) {
-    // if(displayString.length < 6) {
         displayString = displayString + input;
         displayResult.innerHTML = displayString;
-    // }
+    
 }
 
 
@@ -38,10 +37,9 @@ function calculation(){
         if(result.toString().includes(".")) {
             result = result.toPrecision(5);
         }
-        result = result.toString();//this statement is for to delete a result element one by one by converting into string
+        result = result.toString();
         displayString = result;
-        displayResult.innerHTML = result;//Refer NumberObject.html in Section 1
-        // displayString = ""; //if i type 6+5=11 then if i type 2 or some other digit then it will be reset by 2 with the help of this statement
+        displayResult.innerHTML = result;
         
         
 }
