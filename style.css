@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    background-color: darkkhaki;
+    color: dodgerblue;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+
+}
+#display-result{
+    border-radius: 5px;
+    background: #181F32;
+    width: 320px;
+    height: 70px;
+    color: white;
+    text-align: right;
+    font-family: Segoe UI;
+    font-size: 55px;
+    font-weight: 700;
+}
+#buttons-container{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+    padding-top: 20px;
+    height: 400px;
+    width: 320px;
+    border-radius: 5px;
+    background: #252D44;
+}
+.button{
+    color: #3B4664;
+    background: #EAE3DB;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 50px;
+    width: 65px;
+}
+#delete-btn,#reset-btn{
+    background-color: #647299;
+    color: white;
+}
+
+#reset-btn,#calculate-btn{
+    width: 140px;
+}
+#calculate-btn{
+    background-color: red;
+    color: white;
+}
